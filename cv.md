@@ -1,5 +1,7 @@
 # **Tatsiana Radkevich**
 
+![foto](/img/foto.jpg)
+
 ## **Contact**
 
 **Phone:** +375-29-873-78-09
