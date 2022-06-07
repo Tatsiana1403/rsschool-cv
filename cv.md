@@ -1,14 +1,10 @@
 # **Tatsiana Radkevich**
 
----
-
 ## **Contact**
 
 **Phone:** +375-29-873-78-09
 **E-mail** <TatsianaRadkevich1403@gmail.com>
 **GitHub** [Tatsiana1403](https://github.com/Tatsiana1403)
-
----
 
 ## **About me**
 
@@ -22,8 +18,6 @@
 - PHP, MySQL (basic)
 - Git/GitHub
 - Photoshop, CorelDRAW, Adobe Animate
-
----
 
 ## **Code Examples**
 
@@ -53,14 +47,10 @@ else {
 }
 ```
 
----
-
 ## **Education**
 
 **Belarusian State University** - lawyer
 **School of Business of Belarusian State University** - web-desing
-
----
 
 ## **Languages**
 
