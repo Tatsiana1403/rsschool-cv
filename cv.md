@@ -1,5 +1,7 @@
 # **Tatsiana Radkevich**
 
+![foto](/img/foto.jpg)
+
 ## **Contact**
 
 **Phone:** +375-29-873-78-09
@@ -8,7 +10,7 @@
 
 ## **About me**
 
-## I am 31 years old, my first education is law. At the moment, there was a desire to change the field of activity and try to realize oneself in another profession. Received a second degree in web design. During the training, I got acquainted with the basic skills of html, css, js. There is a desire to continue education in this direction.
+I am 31 years old, my first education is law. At the moment, there was a desire to change the field of activity and try to realize oneself in another profession. Received a second degree in web design. During the training, I got acquainted with the basic skills of html, css, js. There is a desire to continue education in this direction.
 
 ## **Skills**
 
@@ -49,11 +51,10 @@ else {
 
 ## **Education**
 
-**Belarusian State University** - lawyer
-**School of Business of Belarusian State University** - web-desing
+- **Belarusian State University** - lawyer
+- **School of Business of Belarusian State University** - web-desing
 
 ## **Languages**
 
-**Russian** - native
-**Belarussian** - native
-**English** - A1
+- **Russian** - native
+- **Belarussian** - native -**English** - A1
