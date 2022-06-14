@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code examples</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#languages" class="nav-link">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <section class="profile">
+            <img src="./img/foto.jpg" alt="foto" />
+            <h1 class="section-title">Tatsiana Radkevich</h1>
+          </section>
+
+          <section class="flex">
+            <div class="flex-left" id="contacts">
+              <h2>Contacts</h2>
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <a href="tel:+375298737809">+375-29-873-78-09</a>
+                </li>
+                <li class="contact-item">
+                  <a href="mailto:TatsianaRadkevich140@gmail.com"
+                    >TatsianaRadkevich1403@gmail.com</a
+                  >
+                </li>
+                <li class="contact-item">
+                  <a href="https://github.com/Tatsiana1403">Tatsiana1403</a>
+                </li>
+              </ul>
+            </div>
+            <div class="flex-right" id="about">
+              <h2>About me</h2>
+              <p>
+                I am 31 years old, my first education is law. At the moment,
+                there was a desire to change the field of activity and try to
+                realize oneself in another profession. Received a second degree
+                in web design. During the training, I got acquainted with the
+                basic skills of html, css, js. There is a desire to continue
+                education in this direction.
+              </p>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="flex-left" id="skills">
+              <h2>Skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (basic)</li>
+                <li>PHP, MySQL (basic)</li>
+                <li>Git/GitHub</li>
+                <li>Photoshop, CorelDRAW, Adobe Animate</li>
+              </ul>
+            </div>
+
+            <div class="flex-right" id="code">
+              <h2>Code examples</h2>
+              <pre>
+                <code>
+var hellopreloader = document.getElementById("hellopreloader_preload");
+function fadeOutnojquery(el) {
+  el.style.opacity = 1;
+  var interhellopreloader = setInterval(function () {
+    el.style.opacity = el.style.opacity - 0.05;
+    if (el.style.opacity &lt;= 0.05) {
+      clearInterval(interhellopreloader);
+      hellopreloader.style.display = "none";
+    }
+  }, 25);
+}
+window.onload = function () {
+  setTimeout(function () {
+    fadeOutnojquery(hellopreloader);
+  }, 500);
+};
+    </code>
+              </pre>
+            </div>
+          </section>
+
+          <section class="flex">
+            <div class="flex-left" id="languages">
+              <h2>Languages</h2>
+              <ul>
+                <li>Russian - native</li>
+                <li>Belarussian - native</li>
+                <li>English - A1</li>
+              </ul>
+            </div>
+            <div class="flex-right" id="education">
+              <h2>Education</h2>
+              <ul>
+                <li>Belarusian State University - lawyer</li>
+                <li>
+                  School of Business of Belarusian State University - web-desing
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container footer-container">
+          <div>
+            <a href="https://github.com/Tatsiana1403">Tatsiana1403</a>
+            <span>&#169; 2022</span>
+          </div>
+          <a href="https://rs.school/js/">
+            <img src="./img/rs_school_js.svg" alt="logo_RSS" />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
